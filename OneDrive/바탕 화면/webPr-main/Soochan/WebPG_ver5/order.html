@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <title>주문하기 | S O O C H A N</title>
+  <link rel="stylesheet" href="/CssPage/OrderPage.css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1><a href="/index.html">S O O C H A N</a></h1>
+    <nav>
+      <a href="/index.html">홈</a>
+      <a href="/cart.html">장바구니</a>
+      <a href="/order.html">주문하기</a>
+    </nav>
+  </header>
+
+
+  <section id="order" class="order-section">
+    <h2>주문하기</h2>
+    <form action="#" method="post">
+      <label for="name">이 름:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+
+      <label for="address">주 소:</label>
+      <input type="text" id="address" name="address" /><br /><br />
+
+      <label for="phonecall">연락처:</label>
+      <input type="text" id="phonecall" name="phonecall" /><br /><br />
+
+      <label for="payment">결제 방법:</label>
+      <select id="payment" name="payment">
+        <option value="credit">신용카드</option>
+        <option value="bank">무통장입금</option>
+        <option value="cash">현금 결제</option>
+      </select><br />
+
+      <input type="submit" value="주문하기" />
+    </form>
+  </section>
+
+  <footer>
+          <p>&copy;2025 웹 프로그래밍 옷 판매 웹페이지</p>
+        </footer>
+</body>
+</html>
